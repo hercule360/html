@@ -1,0 +1,147 @@
+h1 {
+	font-style: bold;
+	color: red;
+	font-family: roboto;
+	text-align: center;
+}
+.title{
+	color:blue
+  }
+
+  #blue-bordered {
+    border: 5px dashed blue;
+	font-weight: normal;
+}
+
+
+ .textcolor {color: #FF0066;}
+ .textcolor1 {color: #00FF00;}
+ .textcolor2 {color: #0000FF;}
+
+/* Selecting multiple HTML element types */
+h1, p{
+	border: 1px solid black;
+	text-decoration: none;
+}
+
+/* Selecting styles to be applied to several classes */
+.FirstItem, .LastItem {
+   font-size: 1.2em;
+}
+
+/* Using multiple Kinds of selectors */
+h3, .red, #redElement {
+   color: red
+}
+.box p {
+	color: red;
+}  
+
+article > p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}
+
+h1 + p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}   
+
+h1 ~ p {
+    font-weight: bold;
+    background-color:red;
+    color: #fff;
+    padding: .5em;
+}
+      /* unvisited link */
+      a:link {
+		color: tomato;
+	}
+
+	/* visited link */
+	a:visited {
+		color: tomato;
+	}
+
+	/* mouse over element */
+	div:hover {
+		color: tomato;
+	} 
+
+	/* selected link */
+	a:active{
+		color: #0000FF
+	}
+
+	.box {
+		padding: 0 1.5em 0 1.5em;
+	  }
+
+	  .box {
+		padding-top: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+	  }
+
+	  div{
+		height: 150px;
+		width: 90%;
+	}
+	p {
+        border: 10px solid black;
+        margin: 20px;
+      }
+
+      .rounded {
+        border-radius: 15px;
+      }
+
+      .elliptical {
+        border-radius: 50px / 25px;
+      }
+
+	  first-line {
+		letter-spacing: 4px;
+		word-spacing: 4px;
+	  }
+	  span.icon {
+		display: inline-block;  
+	  }
+	  #box {
+		display: none;
+		width: 100px;
+		height: 100px;
+		background: blue;
+	  }
+
+	  #box-2 {
+		width: 100px;
+		height: 100px;
+		background: rgb(255, 0, 170);
+		visibility: hidden;
+	  }
+
+	  p {
+        display: inline;
+      }
+	  .test {
+        width: 50px;
+        height: 50px;
+        border: 1px solid red;
+        display: inline-block;
+      }
+	  .box {
+		float: left;
+		width: 200px;
+		height: 100px;
+		margin: 1em;
+	  }
+	  .after-box {
+		clear: left;
+	  }
+	  

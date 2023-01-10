@@ -1,0 +1,54 @@
+
+body {
+    background-color: rgb(230, 219, 173);
+    font-family: 'Roboto', sans-serif;
+    background-color: powderblue;
+}
+  
+  
+  h1 {
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+   color: rgb(255, 0, 153);
+  }
+
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+    margin: 25px 50px 75px 100px;
+    color: rgb(255, 204, 0)
+      
+  }
+  .open{
+    color: rgb(187, 19, 19);
+    text-align: center;
+  }
+  
+#nav{
+
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+    border: 15px;
+    border-color: rgb(226, 43, 67);
+}
+
+a{
+    text-decoration: none ;
+}
+
+.title{
+
+    color: blue;
+    text-align: center ;
+}
+
+

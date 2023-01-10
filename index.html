@@ -5,22 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projet Gomycode</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      type="imge/x-icon"
+      href="https://d1.awsstatic.com/acs/characters/Logos/Docker-Logo_Horizontel_279x131.b8a5c41e56b77706656d61080f6a0217a3ba356d.png"
+    />
   </head>
 
   <body>
     <header>
+      <!--navbar-->
+
       <ul>
-        <li><a href="#">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#resume">resume </a></li>
-        <li><a href="#contact">contact</a></li>
+        <div id="nav">
+          <li><a href="#">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#resume">resume </a></li>
+          <li><a href="#contact">contact</a></li>
+        </div>
       </ul>
+      <select>
+        <option value="#home">home</option>
+        <option value="#about">about</option>
+        <option value="#resume">resume</option>
+        <option value="#contact">contact</option>
+      </select>
     </header>
 
     <main>
-      <h1>open this Github</h1>
+      <h1 id=" open ">open this Github Projet</h1>
+
       <section id="about">
-        <h1><i>This is My GITHUB</i></h1>
+        <h1><i>This is My GITHUB BETA</i></h1>
         <hr />
         <a href="https://github.com/hercule360 ">Github open</a>
 
@@ -55,18 +72,21 @@
             alt="contact"
           />
         </section>
-        <iframe
-          width="250"
-          height="200"
-          src="https://www.youtube.com/embed/pBy1zgt0XPc"
-          title="What is GitHub?"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+        <div>
+          <iframe
+            width="250"
+            height="200"
+            src="https://www.youtube.com/embed/pBy1zgt0XPc"
+            title="What is GitHub?"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
       </section>
 
       <section>
+        <h4>authentification</h4>
         <label for="name">entre ton nom </label>
         <input type="text" />
         <br />
@@ -74,14 +94,74 @@
         <input type="password" />
         <br />
         <input value="envoyer message " type="button" />
+
+        <form>
+          <h4>remplir le formulaire</h4>
+          <b>
+            <label>Name:</label>
+            <input
+              type="text"
+              name="first name"
+              placeholder="Type your name here"
+            />
+            <br />
+
+            <label>Number Phone:</label>
+            <input type="number" name="number  " value="23123456" />
+            <br />
+
+            <label>Birth Date:</label>
+            <input type="date" name="birthday" />
+            <br />
+
+            <label>Password:</label>
+            <input type="password" name="password" />
+            <br />
+
+            <input type="submit" value="Submit" />
+          </b>
+        </form>
+        <br />
+        <div>
+          <form>
+            <label>First Name:</label>
+            <input type="text" name="firstName" />
+            <br />
+            <label>Last Name:</label>
+            <input type="text" name="lastName" id="lastName" />
+            <br />
+            <br />
+            <textarea name="message" cols="30" rows="5">
+            Welcome to GoMyCode
+        </textarea
+            >
+            <br />
+          
+            <button type="submit">Submit Name</button>
+          </form>
+        </div>
       </section>
-      <p>
-        A fork is a copy of a project folder (repository) into your github
-        account or onto your desktop if you use Github on your Desktop. This
-        allows you to freely experiment with changes without affecting the
-        original project. You can try this out at Github itself, where they
-        provides a repository for you to practice with!Jul 24, 2014
-      </p>
+      <div>
+        <p>
+          A fork is a copy of a project folder (repository) into your github
+          account or onto your desktop if you use Github on your Desktop. This
+          allows you to freely experiment with changes without affecting the
+          original project. You can try this out at Github itself, where they
+          provides a repository for you to practice with!Jul 24, 2014
+        </p>
+
+        <form>Search <input type="text" name="search" /></form>
+      </div>
+      <br />
+      <div>
+        <audio controls>
+          <source
+            src="https://file-examples.com/index.php/sample-audio-files/sample-mp3-download/"
+            type="audio/mpeg"
+          />
+        </audio>
+        <br />
+      </div>
     </main>
     <hr />
     <footer>
